@@ -11,11 +11,10 @@ public class Solution {
     }
 
     public static void checkInterval(int a) {
-        // не принимает
-        String result = a + " не";
-        if (a >= 50 && a <= 100) {
-            result = "" + a;
+        if (a > 49 && a < 101) {
+            System.out.println("Число " + a + " содержится в интервале.");
+        } else {
+            System.out.println("Число " + a + " не содержится в интервале.");
         }
-        System.out.printf("Число %s содержится в интервале.", result);
     }
 }
