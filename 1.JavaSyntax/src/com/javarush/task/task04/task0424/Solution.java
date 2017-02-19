@@ -18,13 +18,9 @@ public class Solution {
                 System.out.println(3);
             }
         } else if (a2 == a3) {
-            if (a3 != a1) {
-                System.out.println(1);
-            }
+            System.out.println(1);
         } else if (a3 == a1) {
-            if (a3 != a2) {
-                System.out.println(2);
-            }
+            System.out.println(2);
         }
     }
 }
