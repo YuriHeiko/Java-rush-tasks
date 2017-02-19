@@ -9,14 +9,13 @@ import java.io.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String number = reader.readLine();
-        int a = Integer.valueOf(number);
+        int a = Integer.valueOf(reader.readLine());
         if (a > 0 && a < 1000) {
             String result = (a % 2 == 0 ? "четное" : "нечетное");
 
-            if (number.length() == 1) {
+            if (a < 10) {
                 result += " однозначное число";
-            } else if (number.length() == 2) {
+            } else if (a < 100) {
                 result += " двузначное число";
             } else {
                 result += " трехзначное число";
