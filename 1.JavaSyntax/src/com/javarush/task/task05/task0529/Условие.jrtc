@@ -1,0 +1,6 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0529">
+<h3>Консоль-копилка</h3>
+<p>Вводить с клавиатуры <strong>числа</strong> и считать их <strong>сумму</strong>, пока пользователь не введет слово «<em><strong>сумма</strong></em>».<br />
+Вывести на экран полученную сумму.</p>
+
+</div>
