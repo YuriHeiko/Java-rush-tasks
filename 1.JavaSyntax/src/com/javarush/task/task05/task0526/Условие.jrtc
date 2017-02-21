@@ -1,0 +1,9 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0526">
+<h3>Мужчина и женщина</h3>
+<p>1. Внутри класса <strong><span class="text-corporate">Solution</span></strong> создай <strong><span class="text-corporate">public static</span></strong> классы <strong><span class="text-corporate">Man</span></strong> и <span class="text-corporate"><strong>Woman</strong></span>.<br />
+2. У классов должны быть поля: <mark class="user">name</mark> (<span class="text-corporate">String</span>), <mark class="user">age</mark> (<span class="text-corporate">int</span>), <mark class="user">address</mark> (<span class="text-corporate">String</span>).<br />
+3. Создай <strong>конструкторы</strong>, в которые передаются все возможные параметры.<br />
+4. Создай по два <span class="text-green"><strong>объекта</strong></span> каждого класса со всеми данными используя конструктор.<br />
+5. Объекты выведи на экран в таком формате &#171;<span class="text-user"><strong>name</strong></span><em><strong> + &#187; &#187; + </strong></em><span class="text-user"><strong>age</strong></span><em><strong> + &#187; « + </strong></em><span class="text-user"><strong>address</strong></span>».</p>
+
+</div>
