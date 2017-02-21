@@ -1,0 +1,8 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0519">
+<h3>Ходим по кругу</h3>
+<p>Создать класс (<span class="text-corporate"><strong>Circle</strong></span>) круг, с тремя конструкторами:<br />
+&#8212; <strong>centerX, centerY, radius</strong><br />
+&#8212;<strong> centerX, centerY, radius, width</strong><br />
+&#8212; <strong>centerX, centerY, radius, width, color</strong></p>
+
+</div>
