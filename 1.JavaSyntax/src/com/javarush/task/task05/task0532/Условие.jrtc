@@ -1,0 +1,8 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0532">
+<h3>Задача по алгоритмам</h3>
+<p>Написать программу, которая:<br />
+1. вводит с консоли число <mark class="user">N</mark>, которое должно быть больше <span class="text-user"><strong>0</strong></span><br />
+2. потом вводит <mark class="user">N</mark> чисел с консоли<br />
+3. выводит на экран максимальное из введенных <mark class="user">N</mark> чисел.</p>
+
+</div>
