@@ -1,0 +1,14 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0517">
+<h3>Конструируем котиков</h3>
+<p>Создать класс <span class="text-corporate"><strong>Cat</strong></span> (<em>кот</em>) с пятью конструкторами:<br />
+&#8212; <strong>Имя,</strong><br />
+&#8212; <strong>Имя, вес, возраст</strong><br />
+&#8212; <strong>Имя, возраст</strong> (<em>вес стандартный</em>)<br />
+&#8212; <strong>вес, цвет</strong>, (<em>имя, адрес и возраст – неизвестные. Кот &#8212; бездомный</em>)<br />
+&#8212; <strong>вес, цвет, адрес</strong> (<em>чужой домашний кот</em>)</p>
+<p>Задача конструктора – сделать объект <strong>валидным</strong>.<br />
+Например, если вес не известен, то нужно указать какой-нибудь средний вес.<br />
+Кот не может ничего не весить.<br />
+То же касательно возраста. А вот имени может и не быть (<em><span class="text-neon"><strong>null</strong></span></em>). То же касается адреса: <span class="text-neon"><strong>null</strong></span>.</p>
+
+</div>
