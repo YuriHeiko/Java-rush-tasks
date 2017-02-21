@@ -1,0 +1,11 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0520">
+<h3>Создать класс прямоугольник (Rectangle)</h3>
+<p>Создать класс прямоугольник (<span class="text-corporate"><strong>Rectangle</strong></span>). Его данными будут <mark class="user">top</mark>, <mark class="user">left</mark>, <mark class="user">width</mark>, <mark class="user">height</mark> (<em>верхняя координата, левая, ширина и высота</em>).<br />
+Создать для него как можно больше методов конструкторов.</p>
+<p><strong>Примеры:</strong><br />
+&#8212; <strong>заданы 4 параметра:</strong> <mark class="user">left</mark>, <mark class="user">top</mark>, <mark class="user">width</mark>, <mark class="user">height</mark><br />
+&#8212; <strong>ширина/высота не задана (<em>оба равны </em><span class="text-user">0</span>)</strong><br />
+&#8212; <strong>высота не задана (</strong><em>равно ширине</em><strong>) создаём квадрат</strong><br />
+&#8212; <strong>создаём копию другого прямоугольника</strong> (<em>он и передаётся в параметрах</em>)</p>
+
+</div>
