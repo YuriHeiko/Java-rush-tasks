@@ -1,0 +1,8 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0516">
+<h3>Друзей не купишь</h3>
+<p>Создать класс <span class="text-corporate"><strong>Friend</strong></span> (<em>друг</em>) с тремя конструкторами:<br />
+&#8212; <strong>Имя</strong><br />
+&#8212; <strong>Имя, возраст</strong><br />
+&#8212;<strong> Имя, возраст, пол</strong></p>
+
+</div>
