@@ -1,0 +1,12 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0527">
+<h3>Том и Джерри</h3>
+<p>Создай классы <span class="text-corporate"><strong>Dog</strong></span>, <span class="text-corporate"><strong>Cat</strong></span>, <span class="text-corporate"><strong>Mouse</strong></span>.<br />
+Добавь по <strong>три поля</strong> в каждый класс, на твой выбор.<br />
+Создай объекты для героев мультика Том и Джерри.<br />
+Так много, как только вспомнишь.</p>
+<p><strong>Пример:</strong><br />
+<span class="text-neon">Mouse jerryMouse = new Mouse(“Jerry”, 12 , 5)</span>,<br />
+где <strong><span class="text-user">12</span></strong> &#8212; высота в см,<br />
+<span class="text-user"><strong>5</strong></span> &#8212; длина хвоста в см.</p>
+
+</div>
