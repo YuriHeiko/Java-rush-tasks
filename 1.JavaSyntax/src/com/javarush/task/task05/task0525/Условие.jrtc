@@ -1,0 +1,8 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0525">
+<h3>И целой утки мало</h3>
+<p>По аналогии с классом <span class="text-corporate"><strong>Duck </strong></span>(<em>утка</em>) создай классы <span class="text-corporate"><strong>Cat</strong></span> (<em>кошка</em>) и <span class="text-corporate"><strong>Dog </strong></span>(<em>собака</em>).<br />
+Подумай, что должен возвращать метод <mark>toString</mark> в классах <span class="text-corporate"><strong>Cat</strong></span> и <span class="text-corporate"><strong>Dog</strong></span>?<br />
+В методе <mark>main</mark> создай по два объекта каждого класса и выведи их на экран.<br />
+Объекты класса <span class="text-corporate"><strong>Duck</strong></span> уже созданы и выводятся на экран.</p>
+
+</div>
