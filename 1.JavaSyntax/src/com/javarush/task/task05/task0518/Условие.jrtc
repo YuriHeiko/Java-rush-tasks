@@ -1,0 +1,8 @@
+<div class="wdghtml" taskKey="com.javarush.task.task05.task0518">
+<h3>Регистрируем собачек</h3>
+<p>Создать класс <span class="text-corporate"><strong>Dog</strong></span> (<em>собака</em>) с тремя конструкторами:<br />
+&#8212; <strong>Имя</strong><br />
+&#8212; <strong>Имя, рост</strong><br />
+&#8212; <strong>Имя, рост, цвет</strong></p>
+
+</div>
