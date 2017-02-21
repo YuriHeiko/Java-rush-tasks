@@ -1,0 +1,5 @@
+<div class="wdghtml" taskKey="com.javarush.task.task06.task0601">
+<h3>Метод finalize класса Cat</h3>
+<p>В классе <span class="text-corporate"><strong>Cat</strong></span> создать метод <mark>protected void finalize() throws Throwable</mark>.</p>
+
+</div>
