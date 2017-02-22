@@ -1,0 +1,5 @@
+<div class="wdghtml" taskKey="com.javarush.task.task06.task0602">
+<h3>Пустые кошки, пустые псы</h3>
+<p>В каждом классе <span class="text-corporate"><strong>Cat</strong></span> и <span class="text-corporate"><strong>Dog</strong></span> написать метод <mark>finalize</mark>, который выводит на экран текст о том, что такой-то объект уничтожен.</p>
+
+</div>
