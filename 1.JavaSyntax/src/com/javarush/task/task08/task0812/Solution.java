@@ -18,16 +18,14 @@ public class Solution {
         }
 
         int max = 1;
-        int prev = list.get(0);
         int sequence = 1;
         for (int i = 1; i < list.size(); i++) {
-            if (list.get(i) == prev) {
+            if (list.get(i).equals(list.get(i - 1))) {
                 if (++sequence > max) {
                     max = sequence;
                 }
             } else {
                 sequence = 1;
-                prev = list.get(i);
             }
         }
 
