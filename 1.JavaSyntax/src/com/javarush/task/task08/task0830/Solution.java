@@ -23,8 +23,26 @@ public class Solution {
     }
 
     public static void sort(String[] array) {
-        for (int barrier = 1; barrier < array.length; barrier++) {
+/*        for (int barrier = 1; barrier < array.length; barrier++) {
+            String newElement = array[barrier];
+            int count = barrier - 1;
 
+            while (count >= 0 && isGreaterThan(array[count], newElement)) {
+                array[count + 1] = array[count];
+                count--;
+            }
+
+            array[count + 1] = newElement;
+        }*/
+
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - i - 1; j++) {
+                if (isGreaterThan(array[j], array[j + 1])) {
+                    String tmp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = tmp;
+                }
+            }
         }
     }
 
