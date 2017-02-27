@@ -13,9 +13,9 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String s = reader.readLine();
 
-        String[] words = s.split(" ");
+/*
         StringBuilder builder = new StringBuilder();
-        for (String word : words) {
+        for (String word : s.split(" ")) {
             if (!word.isEmpty()) {
                 char[] chars = word.toCharArray();
                 chars[0] = Character.toUpperCase(chars[0]);
@@ -24,5 +24,10 @@ public class Solution {
         }
 
         System.out.println(builder.deleteCharAt(builder.length() - 1).toString());
+*/
+
+        for (String word : s.split("\\b")) {
+            System.out.print(word.substring(0, 1).toUpperCase() + word.substring(1));
+        }
     }
 }
