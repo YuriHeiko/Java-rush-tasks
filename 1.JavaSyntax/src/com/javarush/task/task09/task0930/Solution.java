@@ -27,7 +27,20 @@ public class Solution {
     }
 
     public static void sort(String[] array) {
-        //напишите тут ваш код
+        for (int barrier = 0; barrier < array.length; barrier++) {
+            int index = barrier;
+            String value = array[barrier];
+            for (int i = 1 + barrier; i < array.length; i++) {
+                if ((isNumber(value) && isNumber(array[i])) && (Integer.parseInt(array[i]) > Integer.parseInt(value))
+                        || (!(isNumber(value) || isNumber(array[i]))) && (isGreaterThan(value, array[i]))) {
+
+                    index = i;
+                    value = array[i];
+                }
+            }
+            array[index] = array[barrier];
+            array[barrier] = value;
+        }
     }
 
     // Метод для сравнения строк: 'а' больше чем 'b'
