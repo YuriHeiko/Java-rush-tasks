@@ -1,0 +1,30 @@
+package com.javarush.task.task12.task1232;
+
+/* 
+Нужно добавить в программу новую функциональность
+*/
+
+import java.nio.file.FileSystemException;
+
+public class Solution {
+    public static void main(String[] args) {
+        Pegas horse = new Pegas();
+    }
+
+    public static interface Fly {
+        public void fly();
+    }
+
+    public static class Horse {
+        public void run() {
+
+        }
+    }
+
+    public static class Pegas extends Horse implements Fly {
+        @Override
+        public void fly() {
+
+        }
+    }
+}
