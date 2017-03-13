@@ -1,0 +1,9 @@
+taskKey="com.javarush.task.task16.task1619"
+
+А без interrupt слабо?
+
+Разберись, как работает программа.
+Сделай так, чтобы в методе ourInterruptMethod можно было сделать так, чтобы нить TestThread завершилась сама.
+Нельзя использовать метод interrupt.
+
+
