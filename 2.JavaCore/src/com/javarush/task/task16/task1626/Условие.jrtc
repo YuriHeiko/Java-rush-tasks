@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task16.task1626"
+
+Создание по образцу
+
+Разберись, как работает программа.
+По образу и подобию CountDownRunnable создай нить CountUpRunnable, которая выводит значения в нормальном порядке - от 1 до number.
+
+
