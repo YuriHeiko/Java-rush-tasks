@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task16.task1618"
+
+Снова interrupt
+
+Создай нить TestThread.
+В методе main создай экземпляр нити, запусти, а потом прерви ее используя метод interrupt().
+
+
