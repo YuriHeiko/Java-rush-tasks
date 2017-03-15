@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task17.task1702"
+
+Вместе быстрее? Ща проверим :)
+
+1. Разберись, что и как работает.
+2. Создай public static нить SortThread, которая в методе run отсортирует статический массив testArray используя метод sort.
+
+
