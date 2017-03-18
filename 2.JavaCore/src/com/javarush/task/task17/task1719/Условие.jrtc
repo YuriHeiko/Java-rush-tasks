@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task17.task1719"
+
+ApplicationContext
+
+ApplicationContext будет доступен множеству нитей.
+Сделать так, чтобы данные не терялись: подумай, какое ключевое слово необходимо поставить и где.
+
+
