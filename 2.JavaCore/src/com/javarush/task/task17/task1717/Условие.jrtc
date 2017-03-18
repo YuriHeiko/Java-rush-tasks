@@ -1,0 +1,7 @@
+taskKey="com.javarush.task.task17.task1717"
+
+Лишняя синхронизация
+
+synchronized существенно замедляет программу, поэтому убери избыточность synchronized внутри методов
+
+
