@@ -1,4 +1,4 @@
-package com.javarush.task.task18.task1801;
+package com.javarush.task.task18.task1802;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -6,26 +6,26 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /* 
-Максимальный байт
+Минимальный байт
 
 d:\_JavaRush\_Test\letter.pdf
-255
+0
 */
 
 public class Solution {
     public static void main(String[] args) throws Exception {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
              FileInputStream fis = new FileInputStream(reader.readLine())) {
-            int maxByte = Integer.MIN_VALUE;
+            int minByte = Integer.MAX_VALUE;
 
             while (fis.available() > 0) {
                 int tmp = fis.read();
-                if (maxByte < tmp) {
-                    maxByte = tmp;
+                if (minByte > tmp) {
+                    minByte = tmp;
                 }
             }
 
-            System.out.println(maxByte);
+            System.out.println(minByte);
 
         } catch (IOException e) {
             e.printStackTrace();
