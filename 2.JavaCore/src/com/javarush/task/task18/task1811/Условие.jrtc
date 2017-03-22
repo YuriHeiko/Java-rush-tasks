@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task18.task1811"
+
+Wrapper (Decorator)
+
+Разберись, что делает программа.
+Аналогично классу DecoratorRunnableImpl создай класс DecoratorMyRunnableImpl.
+
+
