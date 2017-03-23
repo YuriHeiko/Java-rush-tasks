@@ -1,10 +1,7 @@
-package com.javarush.task.task18.task1816;
+package com.javarush.task.task18.task1817;
 
 /* 
-Английские буквы
-
-d:\_JavaRush\_Test\Dear Sir or Madam.txt
-
+Пробелы
 */
 
 import java.io.FileReader;
@@ -16,19 +13,18 @@ public class Solution {
 
         try (FileReader fileReader = new FileReader(args[0])) {
             int symbol;
-            int count = 0;
+            int countSpaces = 0;
+            int countSymbols = 0;
             while ((symbol = fileReader.read()) != -1) {
-                if (symbolIsEnglishLetter(symbol)) {
-                    count++;
+                countSymbols++;
+                if (symbol == ' ') {
+                    countSpaces++;
                 }
             }
-            System.out.println(count);
+
+            System.out.printf("%.2f%n", (double) countSpaces / countSymbols * 100);
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-
-    public static boolean symbolIsEnglishLetter(int symbol) {
-        return (symbol >= 'a' && symbol <= 'z') || (symbol >= 'A' && symbol <= 'Z');
     }
 }
