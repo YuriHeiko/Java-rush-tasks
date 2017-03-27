@@ -1,0 +1,7 @@
+taskKey="com.javarush.task.task19.task1902"
+
+Адаптер
+
+Используй класс AdapterFileOutputStream, чтобы адаптировать FileOutputStream к новому интерфейсу AmigoStringWriter.
+
+
