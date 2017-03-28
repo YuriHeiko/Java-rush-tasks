@@ -1,0 +1,12 @@
+taskKey="com.javarush.task.task19.task1905"
+
+Закрепляем адаптер
+
+Адаптировать Customer и Contact к RowItem.
+Классом-адаптером является DataAdapter.
+Инициализируйте countries перед началом выполнения программы. Соответствие кода страны и названия:
+UA Ukraine
+RU Russia
+CA Canada
+
+
