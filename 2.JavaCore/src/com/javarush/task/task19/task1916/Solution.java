@@ -2,7 +2,9 @@ package com.javarush.task.task19.task1916;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /* 
 Отслеживаем изменения
@@ -42,9 +44,30 @@ public class Solution {
              FileReader fileReader1 = new FileReader(reader.readLine());
              FileReader fileReader2 = new FileReader(reader.readLine())) {
 
+            List<String> original = new BufferedReader(fileReader1).lines().collect(Collectors.toList());
+            List<String> modified = new BufferedReader(fileReader2).lines().collect(Collectors.toList());
+
+            while (original.size() != 0 & modified.size() != 0) {
+                if (original.get(0).equals(modified.get(0))) {
+                    lines.add(new LineItem(Type.SAME, original.remove(0)));
+                    modified.remove(0);
+                } else if (modified.size() != 1 && original.get(0).equals(modified.get(1))) {
+                    lines.add(new LineItem(Type.ADDED, modified.remove(0)));
+                } else if (original.size() != 1 && original.get(1).equals(modified.get(0))) {
+                    lines.add(new LineItem(Type.REMOVED, original.remove(0)));
+                }
+            }
+
+            if (original.size() != 0) {
+                lines.add(new LineItem(Type.REMOVED, original.remove(0)));
+            } else if (modified.size() != 0) {
+                lines.add(new LineItem(Type.ADDED, modified.remove(0)));
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+//        lines.forEach(System.out::println);
     }
 
     public static enum Type {
@@ -61,5 +84,13 @@ public class Solution {
             this.type = type;
             this.line = line;
         }
+
+/*        @Override
+        public String toString() {
+            return "LineItem{" +
+                    "type=" + type +
+                    ", line='" + line + '\'' +
+                    '}';
+        }*/
     }
 }
