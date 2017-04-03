@@ -67,7 +67,7 @@ public class Solution {
             e.printStackTrace();
         }
 
-//        lines.forEach(System.out::println);
+        lines.forEach(System.out::println);
     }
 
     public static enum Type {
@@ -85,12 +85,12 @@ public class Solution {
             this.line = line;
         }
 
-/*        @Override
+        @Override
         public String toString() {
             return "LineItem{" +
                     "type=" + type +
                     ", line='" + line + '\'' +
                     '}';
-        }*/
+        }
     }
 }
