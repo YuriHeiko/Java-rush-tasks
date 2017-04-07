@@ -11,8 +11,8 @@ public class Solution {
         try {
             return (A) objectStream.readObject();
         } catch (Exception e) {
+            return null;
         }
-        return null;
     }
 
     public class A implements Serializable{
