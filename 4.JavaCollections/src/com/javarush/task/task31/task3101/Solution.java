@@ -29,8 +29,12 @@ public class Solution {
             Files.walkFileTree(dir.toPath(), new SimpleFileVisitor<Path>() {
                 @Override
                 public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                    if (file.toFile().length() > 50) FileUtils.deleteFile(file.toFile());
-                    else list.add(file.toFile());
+                    if (file.toFile().length() > 50) {
+                        FileUtils.deleteFile(file.toFile());
+                    }
+                    else {
+                        list.add(file.toFile());
+                    }
                     return FileVisitResult.CONTINUE;
                 }
             });
@@ -38,7 +42,10 @@ public class Solution {
             for (File file : list) {
                 System.out.println(file);
                 FileReader reader = new FileReader(file);
-                while (reader.ready()) writer.write(reader.read());
+                int symbol;
+                while ((symbol = reader.read()) != -1) {
+                    writer.write(symbol);
+                }
                 reader.close();
                 writer.write('\n');
             }
